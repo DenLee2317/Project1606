@@ -32,10 +32,7 @@ const SingleChoiceQuestion: React.FC<SingleChoiceQuestionProps> = ({ question, o
             variant="contained" 
             sx={{
                 background: 'red',
-                color: 'white',
-                '&:hover': {
-                    background: 'darkred'
-                },
+                color: 'white'
             }}
             >Ответить</Button>
           </Box>
